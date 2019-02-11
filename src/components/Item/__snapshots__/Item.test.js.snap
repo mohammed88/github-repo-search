@@ -1,0 +1,777 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item should render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Item
+    detailsUrl="/"
+    repo={
+      Object {
+        "forks_count": 42,
+        "owner": Object {},
+        "stargazers_count": 42,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <ForwardRef>
+        <ForwardRef>
+          <ForwardRef />
+          <ForwardRef
+            data-component-type="RouterLink"
+            to="/"
+          >
+             / 
+          </ForwardRef>
+        </ForwardRef>
+        <ForwardRef />
+        <ForwardRef>
+          <InfoIcon
+            icon={<Star />}
+            text={42}
+          />
+          <InfoIcon
+            icon={<RepoFork />}
+            text={42}
+          />
+        </ForwardRef>
+      </ForwardRef>,
+      "className": undefined,
+      "data-component-type": "Item",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef>
+            <ForwardRef />
+            <ForwardRef
+              data-component-type="RouterLink"
+              to="/"
+            >
+               / 
+            </ForwardRef>
+          </ForwardRef>,
+          <ForwardRef />,
+          <ForwardRef>
+            <InfoIcon
+              icon={<Star />}
+              text={42}
+            />
+            <InfoIcon
+              icon={<RepoFork />}
+              text={42}
+            />
+          </ForwardRef>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef />,
+              <ForwardRef
+                data-component-type="RouterLink"
+                to="/"
+              >
+                 / 
+              </ForwardRef>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-gZMcBi",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+	margin-right: ",
+                    "8px",
+                    ";
+",
+                  ],
+                },
+                "displayName": "Styled(RepoIcon)",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-gZMcBi",
+                "target": [Function],
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  " / ",
+                  undefined,
+                ],
+                "data-component-type": "RouterLink",
+                "to": "/",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                " / ",
+                undefined,
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-htoDjs",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+	font-weight: bold;
+	",
+                    "
+  color: ",
+                    "#EA7F28",
+                    ";
+  font-size: 1rem;
+  text-decoration: none;
+
+  :hover {
+  	text-decoration: underline;
+    cursor: pointer;
+  }
+",
+                    ";
+	",
+                    "
+	font-family: ",
+                    "'Roboto', sans-serif",
+                    ";
+	font-size: 14px;
+",
+                    ";
+",
+                  ],
+                },
+                "displayName": "Styled(Link)",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-htoDjs",
+                "target": [Function],
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-iwsKbI",
+              "isStatic": true,
+              "rules": Array [
+                "
+	display: flex;
+	align-items: flex-start;
+	margin: ",
+                "8px",
+                " 0;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-iwsKbI",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-dnqmqq",
+              "isStatic": true,
+              "rules": Array [
+                "
+	color: ",
+                "#4A4A4A",
+                ";
+	line-height: 1.4;
+	margin: ",
+                "12px",
+                " 0;
+",
+              ],
+            },
+            "displayName": "styled.p",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-dnqmqq",
+            "target": "p",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <InfoIcon
+                icon={<Star />}
+                text={42}
+              />,
+              <InfoIcon
+                icon={<RepoFork />}
+                text={42}
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "icon": <Star />,
+                "text": 42,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "icon": <RepoFork />,
+                "text": 42,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-gzVnrw",
+              "isStatic": true,
+              "rules": Array [
+                "
+	display: flex;
+	margin: ",
+                "8px",
+                " 0;
+	",
+                "
+	font-family: ",
+                "'Roboto', sans-serif",
+                ";
+	font-size: 12px;
+",
+                "
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-gzVnrw",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bZQynM",
+          "isStatic": true,
+          "rules": Array [
+            "
+	margin: ",
+            "8px",
+            ";
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bZQynM",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-EHOje",
+        "isStatic": true,
+        "rules": Array [
+          "
+	display: flex;
+	border: 1px solid ",
+          "#EDEDED",
+          ";
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-EHOje",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <ForwardRef>
+          <ForwardRef>
+            <ForwardRef />
+            <ForwardRef
+              data-component-type="RouterLink"
+              to="/"
+            >
+               / 
+            </ForwardRef>
+          </ForwardRef>
+          <ForwardRef />
+          <ForwardRef>
+            <InfoIcon
+              icon={<Star />}
+              text={42}
+            />
+            <InfoIcon
+              icon={<RepoFork />}
+              text={42}
+            />
+          </ForwardRef>
+        </ForwardRef>,
+        "className": undefined,
+        "data-component-type": "Item",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef>
+              <ForwardRef />
+              <ForwardRef
+                data-component-type="RouterLink"
+                to="/"
+              >
+                 / 
+              </ForwardRef>
+            </ForwardRef>,
+            <ForwardRef />,
+            <ForwardRef>
+              <InfoIcon
+                icon={<Star />}
+                text={42}
+              />
+              <InfoIcon
+                icon={<RepoFork />}
+                text={42}
+              />
+            </ForwardRef>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <ForwardRef />,
+                <ForwardRef
+                  data-component-type="RouterLink"
+                  to="/"
+                >
+                   / 
+                </ForwardRef>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-gZMcBi",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+	margin-right: ",
+                      "8px",
+                      ";
+",
+                    ],
+                  },
+                  "displayName": "Styled(RepoIcon)",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-gZMcBi",
+                  "target": [Function],
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                  Symbol(Symbol.hasInstance): [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    undefined,
+                    " / ",
+                    undefined,
+                  ],
+                  "data-component-type": "RouterLink",
+                  "to": "/",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                  " / ",
+                  undefined,
+                ],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-htoDjs",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+	font-weight: bold;
+	",
+                      "
+  color: ",
+                      "#EA7F28",
+                      ";
+  font-size: 1rem;
+  text-decoration: none;
+
+  :hover {
+  	text-decoration: underline;
+    cursor: pointer;
+  }
+",
+                      ";
+	",
+                      "
+	font-family: ",
+                      "'Roboto', sans-serif",
+                      ";
+	font-size: 14px;
+",
+                      ";
+",
+                    ],
+                  },
+                  "displayName": "Styled(Link)",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-htoDjs",
+                  "target": [Function],
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                  Symbol(Symbol.hasInstance): [Function],
+                },
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-iwsKbI",
+                "isStatic": true,
+                "rules": Array [
+                  "
+	display: flex;
+	align-items: flex-start;
+	margin: ",
+                  "8px",
+                  " 0;
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-iwsKbI",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-dnqmqq",
+                "isStatic": true,
+                "rules": Array [
+                  "
+	color: ",
+                  "#4A4A4A",
+                  ";
+	line-height: 1.4;
+	margin: ",
+                  "12px",
+                  " 0;
+",
+                ],
+              },
+              "displayName": "styled.p",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-dnqmqq",
+              "target": "p",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <InfoIcon
+                  icon={<Star />}
+                  text={42}
+                />,
+                <InfoIcon
+                  icon={<RepoFork />}
+                  text={42}
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "icon": <Star />,
+                  "text": 42,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "icon": <RepoFork />,
+                  "text": 42,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-gzVnrw",
+                "isStatic": true,
+                "rules": Array [
+                  "
+	display: flex;
+	margin: ",
+                  "8px",
+                  " 0;
+	",
+                  "
+	font-family: ",
+                  "'Roboto', sans-serif",
+                  ";
+	font-size: 12px;
+",
+                  "
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-gzVnrw",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bZQynM",
+            "isStatic": true,
+            "rules": Array [
+              "
+	margin: ",
+              "8px",
+              ";
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bZQynM",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-EHOje",
+          "isStatic": true,
+          "rules": Array [
+            "
+	display: flex;
+	border: 1px solid ",
+            "#EDEDED",
+            ";
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-EHOje",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

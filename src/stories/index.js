@@ -1,4 +1,5 @@
 import React from 'react';
+import { StaticRouter } from 'react-router-dom';
 
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
@@ -15,6 +16,7 @@ import Header from '../components/Header/';
 import Footer from '../components/Footer/';
 import InfoIcon from '../components/InfoIcon/';
 import Repo from '../ui/icons/repo';
+import Item from '../components/Item/';
 
 
 storiesOf('Colors', module)
@@ -62,3 +64,17 @@ storiesOf('Footer', module)
 
 storiesOf('InfoIcon', module)
 	.add('default', () => <InfoIcon icon={<Repo />} text='Repository'/>);
+
+storiesOf('Item', module)
+	.add('default', () =>
+		<StaticRouter context={{}}>
+			<Item 
+				repo={
+					{owner: {login: 'owner'}, 
+					name: 'name', 
+					stargazers_count: 42, 
+					forks_count: 42
+				}} 
+				detailsUrl="#" 
+			/>
+		</StaticRouter>);
