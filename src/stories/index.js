@@ -7,6 +7,7 @@ import { linkTo } from '@storybook/addon-links';
 import Colors from '../ui/styles/colors';
 import ColorPalette from './support/ColorPalette';
 import Link from '../ui/Link/';
+import Dropdown from '../ui/Dropdown/';
 
 storiesOf('Colors', module)
 	.add('default', () => 
@@ -18,4 +19,12 @@ storiesOf('Link', module)
 		<Link onClick={action('clicked')}>
 			View details
 		</Link>
+	);
+
+storiesOf('Dropdown', module)
+	.add('default', () => 
+		<Dropdown 
+			onClick={action('clicked')} 
+			list={['Bangalore', 'Warsaw', 'Helsinki', 'Berlin']}
+		/>
 	);
