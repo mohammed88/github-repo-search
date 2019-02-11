@@ -1,0 +1,1118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReposListView should render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ReposListView />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Header />,
+        <ForwardRef>
+          <ForwardRef>
+            <ForwardRef>
+              <ForwardRef
+                autoFocus={true}
+                onChange={[Function]}
+                onKeyUp={[Function]}
+                placeholder="Search Github Repos by Organization"
+                type="text"
+                value=""
+              />
+            </ForwardRef>
+            <ForwardRef>
+              <ForwardRef
+                initialValue="All"
+                label="Programming language"
+                onChange={[Function]}
+                options={
+                  Array [
+                    "All",
+                    "C",
+                    "C#",
+                    "Java",
+                    "JavaScript",
+                    "Python",
+                    "C++",
+                    "Objective-C",
+                    "Shell",
+                    "Go",
+                  ]
+                }
+              />
+              <ForwardRef
+                initialValue="Stars"
+                label="Sort by"
+                onChange={[Function]}
+                options={
+                  Array [
+                    "Stars",
+                    "Forks",
+                  ]
+                }
+              />
+            </ForwardRef>
+          </ForwardRef>
+        </ForwardRef>,
+        <Footer />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef>
+              <ForwardRef>
+                <ForwardRef
+                  autoFocus={true}
+                  onChange={[Function]}
+                  onKeyUp={[Function]}
+                  placeholder="Search Github Repos by Organization"
+                  type="text"
+                  value=""
+                />
+              </ForwardRef>
+              <ForwardRef>
+                <ForwardRef
+                  initialValue="All"
+                  label="Programming language"
+                  onChange={[Function]}
+                  options={
+                    Array [
+                      "All",
+                      "C",
+                      "C#",
+                      "Java",
+                      "JavaScript",
+                      "Python",
+                      "C++",
+                      "Objective-C",
+                      "Shell",
+                      "Go",
+                    ]
+                  }
+                />
+                <ForwardRef
+                  initialValue="Stars"
+                  label="Sort by"
+                  onChange={[Function]}
+                  options={
+                    Array [
+                      "Stars",
+                      "Forks",
+                    ]
+                  }
+                />
+              </ForwardRef>
+            </ForwardRef>,
+            null,
+            null,
+            false,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <ForwardRef>
+                  <ForwardRef
+                    autoFocus={true}
+                    onChange={[Function]}
+                    onKeyUp={[Function]}
+                    placeholder="Search Github Repos by Organization"
+                    type="text"
+                    value=""
+                  />
+                </ForwardRef>,
+                <ForwardRef>
+                  <ForwardRef
+                    initialValue="All"
+                    label="Programming language"
+                    onChange={[Function]}
+                    options={
+                      Array [
+                        "All",
+                        "C",
+                        "C#",
+                        "Java",
+                        "JavaScript",
+                        "Python",
+                        "C++",
+                        "Objective-C",
+                        "Shell",
+                        "Go",
+                      ]
+                    }
+                  />
+                  <ForwardRef
+                    initialValue="Stars"
+                    label="Sort by"
+                    onChange={[Function]}
+                    options={
+                      Array [
+                        "Stars",
+                        "Forks",
+                      ]
+                    }
+                  />
+                </ForwardRef>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <ForwardRef
+                    autoFocus={true}
+                    onChange={[Function]}
+                    onKeyUp={[Function]}
+                    placeholder="Search Github Repos by Organization"
+                    type="text"
+                    value=""
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "autoFocus": true,
+                    "onChange": [Function],
+                    "onKeyUp": [Function],
+                    "placeholder": "Search Github Repos by Organization",
+                    "type": "text",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-brqgnP",
+                      "isStatic": true,
+                      "rules": Array [
+                        "
+	width: 260px;
+	height: 36px;
+	font-size: 0.9rem;
+	padding: 0;
+	border: none;
+
+	:focus {
+		outline: none;
+	}
+",
+                      ],
+                    },
+                    "displayName": "styled.input",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-brqgnP",
+                    "target": "input",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-cMljjf",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+	border: 2px solid ",
+                      "#EDEDED",
+                      ";
+	border-radius: 2px;
+	margin-right: 5rem;
+	padding: 0 ",
+                      "8px",
+                      ";
+	margin-bottom: ",
+                      "8px",
+                      ";
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-cMljjf",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef
+                      initialValue="All"
+                      label="Programming language"
+                      onChange={[Function]}
+                      options={
+                        Array [
+                          "All",
+                          "C",
+                          "C#",
+                          "Java",
+                          "JavaScript",
+                          "Python",
+                          "C++",
+                          "Objective-C",
+                          "Shell",
+                          "Go",
+                        ]
+                      }
+                    />,
+                    <ForwardRef
+                      initialValue="Stars"
+                      label="Sort by"
+                      onChange={[Function]}
+                      options={
+                        Array [
+                          "Stars",
+                          "Forks",
+                        ]
+                      }
+                    />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "initialValue": "All",
+                      "label": "Programming language",
+                      "onChange": [Function],
+                      "options": Array [
+                        "All",
+                        "C",
+                        "C#",
+                        "Java",
+                        "JavaScript",
+                        "Python",
+                        "C++",
+                        "Objective-C",
+                        "Shell",
+                        "Go",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-eHgmQL",
+                        "isStatic": true,
+                        "rules": Array [
+                          "
+	width: 130px;
+	margin-right: ",
+                          "24px",
+                          ";
+	",
+                          "
+	font-family: ",
+                          "'Roboto', sans-serif",
+                          ";
+	font-size: 14px;
+",
+                          ";
+",
+                        ],
+                      },
+                      "displayName": "Styled(LabelledDropdown)",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-eHgmQL",
+                      "target": [Function],
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                      Symbol(Symbol.hasInstance): [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "initialValue": "Stars",
+                      "label": "Sort by",
+                      "onChange": [Function],
+                      "options": Array [
+                        "Stars",
+                        "Forks",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-hSdWYo",
+                        "isStatic": true,
+                        "rules": Array [
+                          "
+	width: 130px;
+	",
+                          "
+	font-family: ",
+                          "'Roboto', sans-serif",
+                          ";
+	font-size: 14px;
+",
+                          ";
+",
+                        ],
+                      },
+                      "displayName": "Styled(LabelledDropdown)",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-hSdWYo",
+                      "target": [Function],
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                      Symbol(Symbol.hasInstance): [Function],
+                    },
+                  },
+                ],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-jAaTju",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+	display: flex;
+	align-items: flex-end;	
+	margin-bottom: ",
+                      "8px",
+                      ";
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-jAaTju",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-jWBwVP",
+                "isStatic": true,
+                "rules": Array [
+                  "
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: ",
+                  "12px",
+                  ";
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-jWBwVP",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          null,
+          null,
+          false,
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-iAyFgw",
+            "isStatic": true,
+            "rules": Array [
+              "
+	flex: 1 1 800px;
+	margin: ",
+              "12px",
+              " auto;
+	padding: 0 ",
+              "24px",
+              ";
+	width: 760px;
+	box-sizing: border-box;
+
+	@media (max-width: 760px) {
+		width: 100%;
+	}
+
+	min-width: 320px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-iAyFgw",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-kkGfuU",
+        "isStatic": true,
+        "rules": Array [
+          "
+	display: flex;
+	flex-direction: column;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-kkGfuU",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Header />,
+          <ForwardRef>
+            <ForwardRef>
+              <ForwardRef>
+                <ForwardRef
+                  autoFocus={true}
+                  onChange={[Function]}
+                  onKeyUp={[Function]}
+                  placeholder="Search Github Repos by Organization"
+                  type="text"
+                  value=""
+                />
+              </ForwardRef>
+              <ForwardRef>
+                <ForwardRef
+                  initialValue="All"
+                  label="Programming language"
+                  onChange={[Function]}
+                  options={
+                    Array [
+                      "All",
+                      "C",
+                      "C#",
+                      "Java",
+                      "JavaScript",
+                      "Python",
+                      "C++",
+                      "Objective-C",
+                      "Shell",
+                      "Go",
+                    ]
+                  }
+                />
+                <ForwardRef
+                  initialValue="Stars"
+                  label="Sort by"
+                  onChange={[Function]}
+                  options={
+                    Array [
+                      "Stars",
+                      "Forks",
+                    ]
+                  }
+                />
+              </ForwardRef>
+            </ForwardRef>
+          </ForwardRef>,
+          <Footer />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef>
+                <ForwardRef>
+                  <ForwardRef
+                    autoFocus={true}
+                    onChange={[Function]}
+                    onKeyUp={[Function]}
+                    placeholder="Search Github Repos by Organization"
+                    type="text"
+                    value=""
+                  />
+                </ForwardRef>
+                <ForwardRef>
+                  <ForwardRef
+                    initialValue="All"
+                    label="Programming language"
+                    onChange={[Function]}
+                    options={
+                      Array [
+                        "All",
+                        "C",
+                        "C#",
+                        "Java",
+                        "JavaScript",
+                        "Python",
+                        "C++",
+                        "Objective-C",
+                        "Shell",
+                        "Go",
+                      ]
+                    }
+                  />
+                  <ForwardRef
+                    initialValue="Stars"
+                    label="Sort by"
+                    onChange={[Function]}
+                    options={
+                      Array [
+                        "Stars",
+                        "Forks",
+                      ]
+                    }
+                  />
+                </ForwardRef>
+              </ForwardRef>,
+              null,
+              null,
+              false,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <ForwardRef>
+                    <ForwardRef
+                      autoFocus={true}
+                      onChange={[Function]}
+                      onKeyUp={[Function]}
+                      placeholder="Search Github Repos by Organization"
+                      type="text"
+                      value=""
+                    />
+                  </ForwardRef>,
+                  <ForwardRef>
+                    <ForwardRef
+                      initialValue="All"
+                      label="Programming language"
+                      onChange={[Function]}
+                      options={
+                        Array [
+                          "All",
+                          "C",
+                          "C#",
+                          "Java",
+                          "JavaScript",
+                          "Python",
+                          "C++",
+                          "Objective-C",
+                          "Shell",
+                          "Go",
+                        ]
+                      }
+                    />
+                    <ForwardRef
+                      initialValue="Stars"
+                      label="Sort by"
+                      onChange={[Function]}
+                      options={
+                        Array [
+                          "Stars",
+                          "Forks",
+                        ]
+                      }
+                    />
+                  </ForwardRef>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <ForwardRef
+                      autoFocus={true}
+                      onChange={[Function]}
+                      onKeyUp={[Function]}
+                      placeholder="Search Github Repos by Organization"
+                      type="text"
+                      value=""
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "autoFocus": true,
+                      "onChange": [Function],
+                      "onKeyUp": [Function],
+                      "placeholder": "Search Github Repos by Organization",
+                      "type": "text",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-brqgnP",
+                        "isStatic": true,
+                        "rules": Array [
+                          "
+	width: 260px;
+	height: 36px;
+	font-size: 0.9rem;
+	padding: 0;
+	border: none;
+
+	:focus {
+		outline: none;
+	}
+",
+                        ],
+                      },
+                      "displayName": "styled.input",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-brqgnP",
+                      "target": "input",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-cMljjf",
+                      "isStatic": true,
+                      "rules": Array [
+                        "
+	border: 2px solid ",
+                        "#EDEDED",
+                        ";
+	border-radius: 2px;
+	margin-right: 5rem;
+	padding: 0 ",
+                        "8px",
+                        ";
+	margin-bottom: ",
+                        "8px",
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-cMljjf",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      <ForwardRef
+                        initialValue="All"
+                        label="Programming language"
+                        onChange={[Function]}
+                        options={
+                          Array [
+                            "All",
+                            "C",
+                            "C#",
+                            "Java",
+                            "JavaScript",
+                            "Python",
+                            "C++",
+                            "Objective-C",
+                            "Shell",
+                            "Go",
+                          ]
+                        }
+                      />,
+                      <ForwardRef
+                        initialValue="Stars"
+                        label="Sort by"
+                        onChange={[Function]}
+                        options={
+                          Array [
+                            "Stars",
+                            "Forks",
+                          ]
+                        }
+                      />,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "initialValue": "All",
+                        "label": "Programming language",
+                        "onChange": [Function],
+                        "options": Array [
+                          "All",
+                          "C",
+                          "C#",
+                          "Java",
+                          "JavaScript",
+                          "Python",
+                          "C++",
+                          "Objective-C",
+                          "Shell",
+                          "Go",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-eHgmQL",
+                          "isStatic": true,
+                          "rules": Array [
+                            "
+	width: 130px;
+	margin-right: ",
+                            "24px",
+                            ";
+	",
+                            "
+	font-family: ",
+                            "'Roboto', sans-serif",
+                            ";
+	font-size: 14px;
+",
+                            ";
+",
+                          ],
+                        },
+                        "displayName": "Styled(LabelledDropdown)",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-eHgmQL",
+                        "target": [Function],
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                        Symbol(Symbol.hasInstance): [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "initialValue": "Stars",
+                        "label": "Sort by",
+                        "onChange": [Function],
+                        "options": Array [
+                          "Stars",
+                          "Forks",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-hSdWYo",
+                          "isStatic": true,
+                          "rules": Array [
+                            "
+	width: 130px;
+	",
+                            "
+	font-family: ",
+                            "'Roboto', sans-serif",
+                            ";
+	font-size: 14px;
+",
+                            ";
+",
+                          ],
+                        },
+                        "displayName": "Styled(LabelledDropdown)",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-hSdWYo",
+                        "target": [Function],
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                        Symbol(Symbol.hasInstance): [Function],
+                      },
+                    },
+                  ],
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-jAaTju",
+                      "isStatic": true,
+                      "rules": Array [
+                        "
+	display: flex;
+	align-items: flex-end;	
+	margin-bottom: ",
+                        "8px",
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-jAaTju",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-jWBwVP",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: ",
+                    "12px",
+                    ";
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-jWBwVP",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            null,
+            null,
+            false,
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-iAyFgw",
+              "isStatic": true,
+              "rules": Array [
+                "
+	flex: 1 1 800px;
+	margin: ",
+                "12px",
+                " auto;
+	padding: 0 ",
+                "24px",
+                ";
+	width: 760px;
+	box-sizing: border-box;
+
+	@media (max-width: 760px) {
+		width: 100%;
+	}
+
+	min-width: 320px;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-iAyFgw",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-kkGfuU",
+          "isStatic": true,
+          "rules": Array [
+            "
+	display: flex;
+	flex-direction: column;
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-kkGfuU",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
