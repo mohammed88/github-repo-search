@@ -12,6 +12,7 @@ import {Text18px, Text14px, Text12px} from './support/TypographyHelper';
 import {H1, H2} from '../ui/styles/typography';
 import Icons from './support/Icons';
 import Header from '../components/Header/';
+import Footer from '../components/Footer/';
 
 
 storiesOf('Colors', module)
@@ -53,3 +54,6 @@ storiesOf('Icons', module)
 
 storiesOf('Header', module)
 	.add('default', () => <Header />);
+
+storiesOf('Footer', module)
+	.add('default', () => <Footer />);
