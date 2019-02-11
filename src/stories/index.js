@@ -13,6 +13,8 @@ import {H1, H2} from '../ui/styles/typography';
 import Icons from './support/Icons';
 import Header from '../components/Header/';
 import Footer from '../components/Footer/';
+import InfoIcon from '../components/InfoIcon/';
+import Repo from '../ui/icons/repo';
 
 
 storiesOf('Colors', module)
@@ -57,3 +59,6 @@ storiesOf('Header', module)
 
 storiesOf('Footer', module)
 	.add('default', () => <Footer />);
+
+storiesOf('InfoIcon', module)
+	.add('default', () => <InfoIcon icon={<Repo />} text='Repository'/>);
