@@ -1,0 +1,793 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoDetailsView should render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RepoDetailsView
+    match={
+      Object {
+        "params": Object {
+          "owner": "",
+          "repo": "",
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Header />,
+        <ForwardRef>
+          <ForwardRef>
+            <ForwardRef />
+            <ForwardRef>
+              
+               / 
+              
+               
+            </ForwardRef>
+            <ForwardRef>
+              (
+              0
+               branches)
+            </ForwardRef>
+          </ForwardRef>
+          <ForwardRef>
+            <div>
+              Loading...
+            </div>
+          </ForwardRef>
+        </ForwardRef>,
+        <Footer />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef>
+              <ForwardRef />
+              <ForwardRef>
+                
+                 / 
+                
+                 
+              </ForwardRef>
+              <ForwardRef>
+                (
+                0
+                 branches)
+              </ForwardRef>
+            </ForwardRef>,
+            <ForwardRef>
+              <div>
+                Loading...
+              </div>
+            </ForwardRef>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <ForwardRef />,
+                <ForwardRef>
+                  
+                   / 
+                  
+                   
+                </ForwardRef>,
+                <ForwardRef>
+                  (
+                  0
+                   branches)
+                </ForwardRef>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-chPdSV",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+	margin-right: ",
+                      "8px",
+                      ";
+",
+                    ],
+                  },
+                  "displayName": "Styled(RepoIcon)",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-chPdSV",
+                  "target": [Function],
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                  Symbol(Symbol.hasInstance): [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    "",
+                    " / ",
+                    "",
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "",
+                  " / ",
+                  "",
+                  " ",
+                ],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-ifAKCX",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+	font-family: ",
+                      "'Roboto', sans-serif",
+                      ";
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+",
+                    ],
+                  },
+                  "displayName": "styled.h2",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-ifAKCX",
+                  "target": "h2",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    "(",
+                    0,
+                    " branches)",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "(",
+                  0,
+                  " branches)",
+                ],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-kAzzGY",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+	",
+                      "
+	font-family: ",
+                      "'Roboto', sans-serif",
+                      ";
+	font-size: 14px;
+",
+                      ";
+	margin: 0 ",
+                      "12px",
+                      ";
+	font-style: italic;
+
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-kAzzGY",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-cSHVUG",
+                "isStatic": true,
+                "rules": Array [
+                  "
+	display: flex;
+	align-items: center;
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-cSHVUG",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <div>
+                  Loading...
+                </div>,
+                Array [],
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Loading...",
+                },
+                "ref": null,
+                "rendered": "Loading...",
+                "type": "div",
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-jzJRlG",
+                "isStatic": true,
+                "rules": Array [
+                  "
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	list-style-type: none;
+	line-height: 1.5;
+	padding: 0;
+	height: 90%;
+
+	@media (max-width: 760px) {
+		flex-wrap: nowrap;
+	}
+",
+                ],
+              },
+              "displayName": "styled.ul",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-jzJRlG",
+              "target": "ul",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-fjdhpX",
+            "isStatic": true,
+            "rules": Array [
+              "
+	flex: 1 1 0;
+	padding: ",
+              "24px",
+              ";
+	overflow: scroll;
+	margin: 0 auto;
+	box-sizing: border-box;
+	width: 800px;
+
+	@media (max-width: 800px) {
+		width: 100%;
+	}
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-fjdhpX",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-jTzLTM",
+        "isStatic": true,
+        "rules": Array [
+          "
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-jTzLTM",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Header />,
+          <ForwardRef>
+            <ForwardRef>
+              <ForwardRef />
+              <ForwardRef>
+                
+                 / 
+                
+                 
+              </ForwardRef>
+              <ForwardRef>
+                (
+                0
+                 branches)
+              </ForwardRef>
+            </ForwardRef>
+            <ForwardRef>
+              <div>
+                Loading...
+              </div>
+            </ForwardRef>
+          </ForwardRef>,
+          <Footer />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef>
+                <ForwardRef />
+                <ForwardRef>
+                  
+                   / 
+                  
+                   
+                </ForwardRef>
+                <ForwardRef>
+                  (
+                  0
+                   branches)
+                </ForwardRef>
+              </ForwardRef>,
+              <ForwardRef>
+                <div>
+                  Loading...
+                </div>
+              </ForwardRef>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <ForwardRef />,
+                  <ForwardRef>
+                    
+                     / 
+                    
+                     
+                  </ForwardRef>,
+                  <ForwardRef>
+                    (
+                    0
+                     branches)
+                  </ForwardRef>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-chPdSV",
+                      "isStatic": true,
+                      "rules": Array [
+                        "
+	margin-right: ",
+                        "8px",
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "Styled(RepoIcon)",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-chPdSV",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                    Symbol(Symbol.hasInstance): [Function],
+                  },
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      "",
+                      " / ",
+                      "",
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "",
+                    " / ",
+                    "",
+                    " ",
+                  ],
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-ifAKCX",
+                      "isStatic": true,
+                      "rules": Array [
+                        "
+	font-family: ",
+                        "'Roboto', sans-serif",
+                        ";
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+",
+                      ],
+                    },
+                    "displayName": "styled.h2",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-ifAKCX",
+                    "target": "h2",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      "(",
+                      0,
+                      " branches)",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "(",
+                    0,
+                    " branches)",
+                  ],
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-kAzzGY",
+                      "isStatic": true,
+                      "rules": Array [
+                        "
+	",
+                        "
+	font-family: ",
+                        "'Roboto', sans-serif",
+                        ";
+	font-size: 14px;
+",
+                        ";
+	margin: 0 ",
+                        "12px",
+                        ";
+	font-style: italic;
+
+",
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-kAzzGY",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-cSHVUG",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+	display: flex;
+	align-items: center;
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-cSHVUG",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <div>
+                    Loading...
+                  </div>,
+                  Array [],
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Loading...",
+                  },
+                  "ref": null,
+                  "rendered": "Loading...",
+                  "type": "div",
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-jzJRlG",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	list-style-type: none;
+	line-height: 1.5;
+	padding: 0;
+	height: 90%;
+
+	@media (max-width: 760px) {
+		flex-wrap: nowrap;
+	}
+",
+                  ],
+                },
+                "displayName": "styled.ul",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-jzJRlG",
+                "target": "ul",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-fjdhpX",
+              "isStatic": true,
+              "rules": Array [
+                "
+	flex: 1 1 0;
+	padding: ",
+                "24px",
+                ";
+	overflow: scroll;
+	margin: 0 auto;
+	box-sizing: border-box;
+	width: 800px;
+
+	@media (max-width: 800px) {
+		width: 100%;
+	}
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-fjdhpX",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-jTzLTM",
+          "isStatic": true,
+          "rules": Array [
+            "
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-jTzLTM",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

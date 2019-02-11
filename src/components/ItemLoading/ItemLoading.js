@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 import {lightGray} from '../../ui/styles/colors';
 import Spacing from '../../ui/styles/spacing';
-import {H2} from '../../ui/styles/typography';
 import {
 	Content,
 	Title, 
@@ -12,7 +11,8 @@ import {
 } from '../Item/';
 
 
-const DescriptionPlaceholder = styled(H2)`
+const DescriptionPlaceholder = styled.span`
+	display: block;
 	background: ${lightGray};
 	width: 220px;
 	height: ${Spacing.large};
