@@ -1,3 +1,45 @@
+## GitHub repo search:
+
+### Demo
+
+[Click here!](https://cranky-pare-ad4080.netlify.com/)
+
+### Project code organization:
+
+Elements - Basic UI elements such as Link, Dropdown. Go to `src/ui`.
+
+Components - are a combination of UI elements to create functional UI modules of the app. Go to `src/components`.
+
+Views - are pages within the app and are built up of one or more Components. Go to `src/views`.
+
+### Technology stack:
+
+React, Styled Components, React Router.
+
+### Storybook:
+
+Project's UI components are built using [Storybook](https://storybook.js.org/). Run `yarn storybook` to view the storybook components.
+
+### E2E tests:
+
+End-to-end tests are executed with [puppeteer](https://pptr.dev/). Run `yarn e2e`. Sreenshots are available under `tests/e2e/__screenshots__`
+
+### Unit tests:
+
+Unit tests are executed with Jest framework. Run `yarn test`.
+
+All Tests: 34 passed, 34 total
+Snapshots: 13 passed, 13 total
+
+### Development mode:
+
+For development mode run `yarn start`.
+
+### Folder/Files naming convention:
+
+Stand alone module folders and files are named with PascalCase. Otherwise, kebab-case is used.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
