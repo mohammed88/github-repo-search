@@ -17,6 +17,7 @@ import Footer from '../components/Footer/';
 import InfoIcon from '../components/InfoIcon/';
 import Repo from '../ui/icons/repo';
 import Item from '../components/Item/';
+import ItemLoading from '../components/ItemLoading/';
 
 
 storiesOf('Colors', module)
@@ -78,3 +79,6 @@ storiesOf('Item', module)
 				detailsUrl="#" 
 			/>
 		</StaticRouter>);
+
+storiesOf('ItemLoading', module)
+	.add('default', () => <ItemLoading />);
