@@ -4,16 +4,18 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
-import { Button, Welcome } from '@storybook/react/demo';
+import Colors from '../ui/styles/colors';
+import ColorPalette from './support/ColorPalette';
+import Link from '../ui/Link/';
 
-storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
+storiesOf('Colors', module)
+	.add('default', () => 
+		<ColorPalette colors={Colors} />
+	);
 
-storiesOf('Button', module)
-  .add('with text', () => <Button onClick={action('clicked')}>Hello Button</Button>)
-  .add('with some emoji', () => (
-    <Button onClick={action('clicked')}>
-      <span role="img" aria-label="so cool">
-        😀 😎 👍 💯
-      </span>
-    </Button>
-  ));
+storiesOf('Link', module)
+	.add('default', () => 
+		<Link onClick={action('clicked')}>
+			View details
+		</Link>
+	);
