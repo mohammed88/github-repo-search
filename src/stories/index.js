@@ -10,6 +10,8 @@ import Link from '../ui/Link/';
 import Dropdown from '../ui/Dropdown/';
 import {Text18px, Text14px, Text12px} from './support/TypographyHelper';
 import {H1, H2} from '../ui/styles/typography';
+import Icons from './support/Icons';
+
 
 storiesOf('Colors', module)
 	.add('default', () => 
@@ -44,3 +46,6 @@ storiesOf('Typography', module)
 			</React.Fragment>
 		);
 	});
+
+storiesOf('Icons', module)
+	.add('default', () => <Icons />);
