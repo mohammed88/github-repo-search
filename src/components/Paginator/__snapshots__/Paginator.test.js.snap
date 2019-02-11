@@ -1,0 +1,750 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paginator should render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Paginator
+    currentPage={1}
+    onChange={[Function]}
+    totalCount={10}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef
+          disabled={true}
+          onClick={[Function]}
+        >
+          First
+        </ForwardRef>,
+        <ForwardRef
+          disabled={true}
+          onClick={[Function]}
+        >
+          Previous
+        </ForwardRef>,
+        <div>
+          1
+           of 
+          10
+        </div>,
+        <ForwardRef
+          disabled={false}
+          onClick={[Function]}
+        >
+          Next
+        </ForwardRef>,
+        <ForwardRef
+          disabled={false}
+          onClick={[Function]}
+        >
+          Last
+        </ForwardRef>,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "First",
+          "disabled": true,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "First",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-ifAKCX",
+            "isStatic": false,
+            "rules": Array [
+              "
+	",
+              "
+  color: ",
+              "#EA7F28",
+              ";
+  font-size: 1rem;
+  text-decoration: none;
+
+  :hover {
+  	text-decoration: underline;
+    cursor: pointer;
+  }
+",
+              "
+",
+              "
+	color: ",
+              [Function],
+              ";
+	flex: 0 1 0;
+	pointer-events: ",
+              [Function],
+              ";
+	",
+              "
+	font-family: ",
+              "'Roboto', sans-serif",
+              ";
+	font-size: 14px;
+",
+              ";
+",
+            ],
+          },
+          "displayName": "Styled(styled.a)",
+          "foldedComponentIds": Array [
+            "sc-bdVaJa",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-ifAKCX",
+          "target": "a",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Previous",
+          "disabled": true,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Previous",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-ifAKCX",
+            "isStatic": false,
+            "rules": Array [
+              "
+	",
+              "
+  color: ",
+              "#EA7F28",
+              ";
+  font-size: 1rem;
+  text-decoration: none;
+
+  :hover {
+  	text-decoration: underline;
+    cursor: pointer;
+  }
+",
+              "
+",
+              "
+	color: ",
+              [Function],
+              ";
+	flex: 0 1 0;
+	pointer-events: ",
+              [Function],
+              ";
+	",
+              "
+	font-family: ",
+              "'Roboto', sans-serif",
+              ";
+	font-size: 14px;
+",
+              ";
+",
+            ],
+          },
+          "displayName": "Styled(styled.a)",
+          "foldedComponentIds": Array [
+            "sc-bdVaJa",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-ifAKCX",
+          "target": "a",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            1,
+            " of ",
+            10,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          1,
+          " of ",
+          10,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Next",
+          "disabled": false,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Next",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-ifAKCX",
+            "isStatic": false,
+            "rules": Array [
+              "
+	",
+              "
+  color: ",
+              "#EA7F28",
+              ";
+  font-size: 1rem;
+  text-decoration: none;
+
+  :hover {
+  	text-decoration: underline;
+    cursor: pointer;
+  }
+",
+              "
+",
+              "
+	color: ",
+              [Function],
+              ";
+	flex: 0 1 0;
+	pointer-events: ",
+              [Function],
+              ";
+	",
+              "
+	font-family: ",
+              "'Roboto', sans-serif",
+              ";
+	font-size: 14px;
+",
+              ";
+",
+            ],
+          },
+          "displayName": "Styled(styled.a)",
+          "foldedComponentIds": Array [
+            "sc-bdVaJa",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-ifAKCX",
+          "target": "a",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Last",
+          "disabled": false,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Last",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-ifAKCX",
+            "isStatic": false,
+            "rules": Array [
+              "
+	",
+              "
+  color: ",
+              "#EA7F28",
+              ";
+  font-size: 1rem;
+  text-decoration: none;
+
+  :hover {
+  	text-decoration: underline;
+    cursor: pointer;
+  }
+",
+              "
+",
+              "
+	color: ",
+              [Function],
+              ";
+	flex: 0 1 0;
+	pointer-events: ",
+              [Function],
+              ";
+	",
+              "
+	font-family: ",
+              "'Roboto', sans-serif",
+              ";
+	font-size: 14px;
+",
+              ";
+",
+            ],
+          },
+          "displayName": "Styled(styled.a)",
+          "foldedComponentIds": Array [
+            "sc-bdVaJa",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-ifAKCX",
+          "target": "a",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bxivhb",
+        "isStatic": true,
+        "rules": Array [
+          "
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+	",
+          "
+	font-family: ",
+          "'Roboto', sans-serif",
+          ";
+	font-size: 14px;
+",
+          ";
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bxivhb",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef
+            disabled={true}
+            onClick={[Function]}
+          >
+            First
+          </ForwardRef>,
+          <ForwardRef
+            disabled={true}
+            onClick={[Function]}
+          >
+            Previous
+          </ForwardRef>,
+          <div>
+            1
+             of 
+            10
+          </div>,
+          <ForwardRef
+            disabled={false}
+            onClick={[Function]}
+          >
+            Next
+          </ForwardRef>,
+          <ForwardRef
+            disabled={false}
+            onClick={[Function]}
+          >
+            Last
+          </ForwardRef>,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "First",
+            "disabled": true,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "First",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-ifAKCX",
+              "isStatic": false,
+              "rules": Array [
+                "
+	",
+                "
+  color: ",
+                "#EA7F28",
+                ";
+  font-size: 1rem;
+  text-decoration: none;
+
+  :hover {
+  	text-decoration: underline;
+    cursor: pointer;
+  }
+",
+                "
+",
+                "
+	color: ",
+                [Function],
+                ";
+	flex: 0 1 0;
+	pointer-events: ",
+                [Function],
+                ";
+	",
+                "
+	font-family: ",
+                "'Roboto', sans-serif",
+                ";
+	font-size: 14px;
+",
+                ";
+",
+              ],
+            },
+            "displayName": "Styled(styled.a)",
+            "foldedComponentIds": Array [
+              "sc-bdVaJa",
+            ],
+            "render": [Function],
+            "styledComponentId": "sc-ifAKCX",
+            "target": "a",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Previous",
+            "disabled": true,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Previous",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-ifAKCX",
+              "isStatic": false,
+              "rules": Array [
+                "
+	",
+                "
+  color: ",
+                "#EA7F28",
+                ";
+  font-size: 1rem;
+  text-decoration: none;
+
+  :hover {
+  	text-decoration: underline;
+    cursor: pointer;
+  }
+",
+                "
+",
+                "
+	color: ",
+                [Function],
+                ";
+	flex: 0 1 0;
+	pointer-events: ",
+                [Function],
+                ";
+	",
+                "
+	font-family: ",
+                "'Roboto', sans-serif",
+                ";
+	font-size: 14px;
+",
+                ";
+",
+              ],
+            },
+            "displayName": "Styled(styled.a)",
+            "foldedComponentIds": Array [
+              "sc-bdVaJa",
+            ],
+            "render": [Function],
+            "styledComponentId": "sc-ifAKCX",
+            "target": "a",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              1,
+              " of ",
+              10,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            1,
+            " of ",
+            10,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Next",
+            "disabled": false,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Next",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-ifAKCX",
+              "isStatic": false,
+              "rules": Array [
+                "
+	",
+                "
+  color: ",
+                "#EA7F28",
+                ";
+  font-size: 1rem;
+  text-decoration: none;
+
+  :hover {
+  	text-decoration: underline;
+    cursor: pointer;
+  }
+",
+                "
+",
+                "
+	color: ",
+                [Function],
+                ";
+	flex: 0 1 0;
+	pointer-events: ",
+                [Function],
+                ";
+	",
+                "
+	font-family: ",
+                "'Roboto', sans-serif",
+                ";
+	font-size: 14px;
+",
+                ";
+",
+              ],
+            },
+            "displayName": "Styled(styled.a)",
+            "foldedComponentIds": Array [
+              "sc-bdVaJa",
+            ],
+            "render": [Function],
+            "styledComponentId": "sc-ifAKCX",
+            "target": "a",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Last",
+            "disabled": false,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Last",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-ifAKCX",
+              "isStatic": false,
+              "rules": Array [
+                "
+	",
+                "
+  color: ",
+                "#EA7F28",
+                ";
+  font-size: 1rem;
+  text-decoration: none;
+
+  :hover {
+  	text-decoration: underline;
+    cursor: pointer;
+  }
+",
+                "
+",
+                "
+	color: ",
+                [Function],
+                ";
+	flex: 0 1 0;
+	pointer-events: ",
+                [Function],
+                ";
+	",
+                "
+	font-family: ",
+                "'Roboto', sans-serif",
+                ";
+	font-size: 14px;
+",
+                ";
+",
+              ],
+            },
+            "displayName": "Styled(styled.a)",
+            "foldedComponentIds": Array [
+              "sc-bdVaJa",
+            ],
+            "render": [Function],
+            "styledComponentId": "sc-ifAKCX",
+            "target": "a",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bxivhb",
+          "isStatic": true,
+          "rules": Array [
+            "
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+	",
+            "
+	font-family: ",
+            "'Roboto', sans-serif",
+            ";
+	font-size: 14px;
+",
+            ";
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bxivhb",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

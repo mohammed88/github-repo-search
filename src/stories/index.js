@@ -18,6 +18,7 @@ import InfoIcon from '../components/InfoIcon/';
 import Repo from '../ui/icons/repo';
 import Item from '../components/Item/';
 import ItemLoading from '../components/ItemLoading/';
+import Paginator from '../components/Paginator/';
 
 
 storiesOf('Colors', module)
@@ -82,3 +83,6 @@ storiesOf('Item', module)
 
 storiesOf('ItemLoading', module)
 	.add('default', () => <ItemLoading />);
+
+storiesOf('Paginator', module)
+	.add('default', () => <Paginator totalCount={10} currentPage={3} />);
