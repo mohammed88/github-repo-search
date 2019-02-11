@@ -11,6 +11,7 @@ import Dropdown from '../ui/Dropdown/';
 import {Text18px, Text14px, Text12px} from './support/TypographyHelper';
 import {H1, H2} from '../ui/styles/typography';
 import Icons from './support/Icons';
+import Header from '../components/Header/';
 
 
 storiesOf('Colors', module)
@@ -49,3 +50,6 @@ storiesOf('Typography', module)
 
 storiesOf('Icons', module)
 	.add('default', () => <Icons />);
+
+storiesOf('Header', module)
+	.add('default', () => <Header />);
