@@ -8,6 +8,8 @@ import Colors from '../ui/styles/colors';
 import ColorPalette from './support/ColorPalette';
 import Link from '../ui/Link/';
 import Dropdown from '../ui/Dropdown/';
+import {Text18px, Text14px, Text12px} from './support/TypographyHelper';
+import {H1, H2} from '../ui/styles/typography';
 
 storiesOf('Colors', module)
 	.add('default', () => 
@@ -28,3 +30,17 @@ storiesOf('Dropdown', module)
 			list={['Bangalore', 'Warsaw', 'Helsinki', 'Berlin']}
 		/>
 	);
+
+
+storiesOf('Typography', module)
+	.add('default', () => {
+		return (
+			<React.Fragment>
+				<H1>Roboto Bold 32px (H1)</H1>
+				<H2>Roboto Bold 18px (H2)</H2>
+				<Text18px>Roboto Regular 18px (Text18)</Text18px>
+				<Text14px>Roboto Regular 14px (Text14)</Text14px>
+				<Text12px>Roboto Regular 12px (Text12)</Text12px>
+			</React.Fragment>
+		);
+	});
