@@ -19,6 +19,7 @@ import Repo from '../ui/icons/repo';
 import Item from '../components/Item/';
 import ItemLoading from '../components/ItemLoading/';
 import Paginator from '../components/Paginator/';
+import LabelledDropdown from '../components/LabelledDropdown/';
 
 
 storiesOf('Colors', module)
@@ -86,3 +87,6 @@ storiesOf('ItemLoading', module)
 
 storiesOf('Paginator', module)
 	.add('default', () => <Paginator totalCount={10} currentPage={3} />);
+
+storiesOf('LabelledDropdown', module)
+	.add('default', () => <LabelledDropdown label="Sort by" options={['1', '2']} />);
